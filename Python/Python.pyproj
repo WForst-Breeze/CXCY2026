@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>27164d09-3b79-4fd0-9316-aaf9390a2516</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Python.py</StartupFile>
+    <StartupFile>EXP1_FirstAgent\travel_agent.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Python.py" />
+    <Compile Include="EXP1_FirstAgent\travel_agent.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EXP1_FirstAgent\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
